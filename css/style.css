@@ -1,0 +1,88 @@
+.ababor--card {
+  background-image: url("../images/ababor.jpg") !important;
+  background-size: 100% 100%; }
+
+.deguzman--card {
+  background-image: url("../images/deguzman.jpg") !important;
+  background-size: 100% 100%; }
+
+.ranchito--card {
+  background-image: url("../images/ranchito.jpg") !important;
+  background-size: 100% 100%; }
+
+.zaguan--card {
+  background-image: url("../images/zaguan.jpg") !important;
+  background-size: 100% 100%; }
+
+/* mapas */
+/*mixin*/
+/*extend*/
+.button-nav {
+  display: inline-block;
+  font-family: poppins;
+  border-radius: 4px;
+  border: none;
+  text-align: center;
+  font-size: 16px;
+  padding: 5px;
+  width: auto;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px; }
+
+.button-nav span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s; }
+
+.button-nav span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s; }
+
+.button-nav:hover span {
+  padding-right: 25px; }
+
+.button-nav:hover span:after {
+  opacity: 1;
+  right: 0; }
+
+.fondo {
+  z-index: -9;
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 20%; }
+
+.imagenes-restaurantes {
+  width: 300px;
+  height: 300px;
+  object-fit: fit; }
+
+.banner {
+  display: block;
+  margin: 0 auto;
+  width: 40%; }
+
+.borde-imagenes {
+  background-color: #cfd0cc; }
+
+/*mapget*/
+.primary-color, .button-nav, .link-color {
+  color: #f5f5dc !important;
+  background-color: #1c1e1f; }
+
+.link-hover-color {
+  text-decoration: none;
+  font-size: large;
+  text-align: center; }
+  .link-hover-color:hover {
+    color: #667934 !important; }

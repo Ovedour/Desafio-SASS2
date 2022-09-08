@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400&family=Sofia&display=swap"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <meta name="description" content="BUSCA Y ENCUENTRA TUS RESTAURANTES FAVORITOS DENTRO DE CIUDAD GUZMAN. DESCRIPCION Y MENU ADEMAS DE COMENTARIOS DE NUESTROS VISITANTES EN LA WEB">
+    <meta name="keywords" content="COMIDA, RESTAURANTES, COMER, UBICACION, COMIDA, PIZZA, SUSHI, HAMBURGUESA, CAMARONES, PASTA, ANTOJITOS MEXICANOS, CORTES, CARNES, BURRITOS, WINGS">
+
+  <title>Fooders, encuentra tu restaurante favorito.</title>
+  <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+
+<body>
+
+  <div class="fondo"><img src="./images/image.png" alt="Fondo difuminado de comida"></div>
+
+  <header class="container primary-color" id="arriba">
+
+
+    <nav class="navbar navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand link-hover-color fs-2 primary-color" href="./index.html">
+          <img src="./images/menu.png" alt="" width="50" height="50" class="d-inline-block align-text-center">
+          Fooders
+        </a>
+      </div>
+    </nav>
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+        <button class="button-nav"><a class="navbar-brand primary-color link-hover-color"
+            href="./index.html"><span>Inicio</span></a></button>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item"><button class="button-nav">
+                <a class="nav-link active link-hover-color primary-color" aria-current="page"
+                  style="vertical-align:middle" href="./pages/galeria.html"><span>Galería</span></a></button>
+            <li class="nav-item"><button class="button-nav">
+                <a class="nav-link active link-hover-color primary-color" aria-current="page"
+                  style="vertical-align:middle"
+                  href="./pages/lista_de_restaurantes.html"><span>Restaurantes</span></a></button>
+            </li>
+            <li class="nav-item"><button class="button-nav">
+                <a class="nav-link active link-hover-color primary-color" aria-current="page"
+                  style="vertical-align:middle" href="./pages/Platos.html"><span>Platos</span></a></button>
+            </li>
+            <li class="nav-item"><button class="button-nav">
+                <a class="nav-link active link-hover-color primary-color" aria-current="page"
+                  style="vertical-align:middle"
+                  href="./pages/pagina_de_contacto.html"><span>Contacto</span></a></button>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Búsqueda" aria-label="Search">
+            <button class="secondarybackground btn btn-secondary" type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+  </header>
+
+  <main class="container">
+
+    <div>
+
+      <!-- Este titulo probablemente desaparesca para que sea un banne que abarque el 100% del width con una imagen de fondo estilo cover. -->
+      <h3 class="d-flex justify-content-center">¿Cuál es tu antojo hoy?</h3>
+      <img src="./images/gastronomia-removebg-preview.png" alt="imagen de banner"
+        class="banner animate__animated animate__rubberBand">
+    </div>
+
+    <section>
+      <h3 class="mb-5 mx-auto col-12 text-center shadow p-3 mb-5 rounded primary-color">Sugerencias</h3>
+    </section>
+
+    <div class="row row-cols-xl-2 row-cols-md-9" id="main">
+
+
+      <div class="row row-cols-xl-2 row-cols-md-2 p-3 mb-5 rounded mx-auto primary-color">
+
+
+
+        <div class="col pt-3 col-sm-6 col-md-6">
+          <div class="card">
+            <div class="card-img-top img-thumbnail borde-imagenes imagenes-restaurantes ababor--card">
+            </div>
+            <div class="card-body primary-color">
+              <h5 class="card-title">Restaurante 1
+              </h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                content.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col pt-3 col-sm-6 col-md-6">
+          <div class="card">
+            <div class="card-img-top img-thumbnail borde-imagenes imagenes-restaurantes deguzman--card">
+            </div>
+            <div class="card-body primary-color">
+              <h5 class="card-title">Restaurante 2</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                content.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col pt-3 pb-3 col-sm-6 col-md-6">
+          <div class="card">
+            <div class="card-img-top img-thumbnail borde-imagenes imagenes-restaurantes ranchito--card">
+            </div>
+            <div class="card-body primary-color">
+              <h5 class="card-title">Restaurante 3</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                content.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col pt-3 pb-3 col-sm-6 col-md-6">
+          <div class="card">
+            <div class="card-img-top img-thumbnail borde-imagenes imagenes-restaurantes zaguan--card">
+            </div>
+            <div class="card-body primary-color">
+              <h5 class="card-title">Restaurante 4</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                content.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+      <aside class="col-xl-1 col-md-1 shadow p-3 mb-5 rounded mx-auto primary-color" style="width: 300px;">
+
+        <div class="container-fluid">
+          <h5>Últimos comentarios</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident fugit quibusdam magnam sunt ex, amet,
+            vel
+            atque debitis, esse aspernatur recusandae consectetur? Iure fugiat voluptatem dolores et nobis odit impedit?
+            Eum fugit et nemo id soluta, ducimus reiciendis quis ex, iure earum dolor sunt ad repellat laboriosam rerum
+            cum,
+          </p>
+
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident fugit quibusdam magnam sunt ex, amet,
+            vel
+            atque debitis, esse aspernatur recusandae consectetur? Iure fugiat voluptatem dolores et nobis odit impedit?
+            Eum fugit et nemo id soluta, ducimus reiciendis quis ex, iure earum dolor sunt ad repellat laboriosam rerum
+            cum,</p>
+        </div>
+      </aside>
+
+
+    </div>
+
+  </main>
+
+  <footer class="container primary-color">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+        <a class="link-hover-color primary-color" href="./index.html">Regresar al inicio</a>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="active position-absolute top-50 end-0 px-2 translate-middle-y link-hover-color primary-color"
+              aria-current="page" href="#arriba">Volver arriba</a>
+          </li>
+        </ul>
+      </div>
+      </div>
+    </nav>
+
+    </nav>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,38 @@
+@each $restaurantes in ababor,
+deguzman,
+ranchito,
+zaguan,
+{
+.#{$restaurantes}--card {
+    background-image:url('../images/#{$restaurantes}.jpg') !important;
+    background-size: 100% 100%;
+}
+}
+
+/* mapas */
+$map: (
+    primarybackground: #1c1e1f,
+    secondarybackground: #667934,
+);
+
+$map2: (
+    primaryfonts: #f5f5dc,
+    secondaryfonts: #cfd0cc,
+);
+
+/*mixin*/
+@mixin link-color2 ($hover) {
+    text-decoration: none;
+    font-size: large;
+    text-align: center;
+
+    &:hover {
+        color: $hover;
+    }
+}
+
+//$main-font-color:#f5f5dc !important;
+//$secondary-font-color:#cfd0cc;
+//$main-background: #1c1e1f !important;
+
+$hover-color: #667934 !important;
